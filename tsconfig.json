@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "rootDir": "src",
+    "paths": {
+      "@lib": ["./src/lib"]
+    },
+    "outDir": "dist",
+    "plugins": [
+       { "transform": "typescript-transform-paths" },
+    ]
+  }
+}
